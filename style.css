@@ -152,18 +152,19 @@ nav{
 
 
 
-@media (min-width: 576px){
-    .cardsflex{ 
+@media (max-width: 767px) {
+    .cardsflex{  display: flex;
+                
     
     }
-    .cardbody-1{
+    .cardbody1{
         order: 2;
     }
-    .cardbody-2{
-        order: 1;
+    .cardbody2{
+        order: -1;
     }
-    .cardbody-3{
-        order: 2;
+    .cardbody3{
+        order: 3;
     }
 }
 
