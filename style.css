@@ -1,0 +1,171 @@
+:root{
+  --primary: #07AB80;
+
+}
+
+nav{
+    background: var(--primary);
+}
+
+.puppy{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*);
+    background-size: cover;
+    height: 100vh;
+}
+
+.left-edge{
+  border-left: 1vh solid var(--primary);
+  padding-left: 2rem;
+ 
+}
+
+
+.card-white {
+    background: white;
+  
+    box-shadow: 1px 1px 2px #e7e7e7;
+    border-radius: 4px;
+}
+
+
+.headerprimary{
+    color: var(--primary);
+}
+
+.site-footer {
+    background: white;
+    color: var(--primary);
+    height: 80px;
+  }
+  
+  #footer-content {
+    background: var(--primary)
+  }
+  .rectangle {
+    height: 10px;
+    width: 200px;
+    background-color: var(--primary);
+  }
+
+.buttontextcolor{
+    color: var(--primary);
+}
+
+
+.main-background{
+    background: var(--primary);
+
+
+}
+  
+@media (min-width: 576px) {
+    .test-class{ width: 100%;
+
+    }
+    hr.flexbreak { flex-basis: 100%; height: 0; margin: 0; border: 0; }
+ }
+
+ @media (min-width: 768px) { 
+     .test-class{
+          width: 50%;
+     }
+     
+     hr.flexbreak { display: none}
+ }
+
+ .bi-wrench{
+     color: var(--primary);
+ }
+
+ .fa-car{
+     color: var(--primary);
+
+ }
+
+ .fa-phone-volume{
+     color: var(--primary);
+ }
+ 
+ .fa-circle{
+     color: var(--primary);
+ }
+
+ .fa-bolt{
+     color: var(--primary);
+ }
+
+ .card-white-spill{
+    background: white;
+  
+    box-shadow: 1px 1px 2px #e7e7e7;
+    border-radius: 4px;
+    position: relative;
+    top: 0;
+    
+}
+
+
+.fa-check{
+    color: var(--primary);
+}
+
+.icon {
+
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 5px;
+    left: 5px;
+  }
+ 
+[class^="icon"] {
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+    fill: #fff;
+  }
+  /* Reposition the music note icon */
+  .icon-music {
+    right: 5px;
+  }
+
+  ul.ba {
+
+    list-style-type: none;
+}
+
+.btn-background{
+    background-color: var(--primary);
+}
+
+.cardtextcolor{
+   color: var(--primary);
+}
+
+.starcolor{
+    color: var(--primary);
+
+}
+
+
+
+@media (min-width: 576px){
+    .cardsflex{ 
+    
+    }
+    .cardbody-1{
+        order: 2;
+    }
+    .cardbody-2{
+        order: 1;
+    }
+    .cardbody-3{
+        order: 2;
+    }
+}
+
+.test-class{
+    font-family: 'Roboto', sans-serif;
+}
